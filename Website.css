@@ -42,7 +42,8 @@
       font-family:'Copperplate', Fantasy;
       text-align: center;
       color: black;
-      max-width: 100%
+      max-width: 100%;
+      height: 50%
     }
    /* website title in the center of images on each page */   
   .Centered {
