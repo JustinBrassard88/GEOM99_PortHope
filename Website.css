@@ -36,3 +36,24 @@
       display: none;
     }
   }
+  
+  .Header_Image_Title {
+      position: relative;
+      text-align: center;
+      color: black;
+      max-width: 100%
+    }
+   /* website title in the center of images on each page */   
+  .Centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 5vw;
+    }
+  
+    /* makes heading image responsive */
+  .responsive {
+      width: 100%;
+      height: auto;
+    }
