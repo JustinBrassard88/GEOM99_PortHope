@@ -39,7 +39,7 @@
   
   .Header_Image_Title {
       position: relative;
-      font-family:'Copperplate';
+      font-family:'Copperplate', Fantasy;
       text-align: center;
       color: black;
       max-width: 100%
