@@ -6,11 +6,7 @@
     overflow: hidden;
     background-color: #8FBC8F;
   }
-  /* nav bar on the right of webpage */
-  li {
-    float: right;
-    text-align: right;
-  }
+
   /*nav bar horizontal at full screen */
   li a {
     display: block;
