@@ -58,3 +58,51 @@
       width: 100%;
       height: auto;
     }
+
+    .MeetTeam {
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        border:solid;
+        border-color: black;
+      
+      }
+      
+      .MeetTeamJustin {
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        border:solid;
+        border-color: black;
+      
+      }
+      /* heading for names on meet the team page */
+      .Teamhead{
+        font-size: 25px;
+        color: black;
+        padding: 12px;
+        text-align: center;
+        padding-top: 150px;
+        font-weight: bold;
+      }
+      
+      .description{
+        font-size: 20px;
+        color: rgb(3, 131, 3);
+        padding-right: 10px;
+        text-align: center;
+      }
+      
+      /* rows and columns for meet the team page */
+      .row {
+        display:flex;
+      }
+      .column {
+        flex: 50%;
+        padding: 100px;
+        padding-bottom: 25px;
+      }
