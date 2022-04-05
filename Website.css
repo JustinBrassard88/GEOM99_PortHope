@@ -4,13 +4,16 @@
     margin: 0;
     padding: 25px;
     overflow: hidden;
-    background-color: #8FBC8F;
+    background-color: #4682b4;
   }
-
+  /* nav bar on the right of webpage */
+  li {
+    float: left;
+    text-align: left;
+  }
   /*nav bar horizontal at full screen */
   li a {
     display: block;
-    color: #0ba813;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -21,6 +24,15 @@
   
   /* Change the link colour on hover */
   li a:hover {
-    background-color: #9b1616;
-    background-color: #9fca9f;
+    background-color: #87ceeb;
+  }
+  /* responsive design, nav bar becomes vertical */ 
+  @media screen and (max-width: 1340px) {
+    .navbar li {
+      text-align: center;
+      float: none;
+    }
+    li .logo{
+      display: none;
+    }
   }
