@@ -39,6 +39,7 @@
   
   .Header_Image_Title {
       position: relative;
+      font-family:'Lucida Console', monospace ;
       text-align: center;
       color: black;
       max-width: 100%
