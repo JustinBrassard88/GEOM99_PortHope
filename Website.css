@@ -60,7 +60,6 @@
     }
 
     .MeetTeam {
-        border-radius: 50%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -70,16 +69,6 @@
       
       }
       
-      .MeetTeamJustin {
-        border-radius: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
-        border:solid;
-        border-color: black;
-      
-      }
       /* heading for names on meet the team page */
       .Teamhead{
         font-size: 25px;
