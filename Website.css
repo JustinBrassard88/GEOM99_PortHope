@@ -64,39 +64,34 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 75%;
+        width: 600;
+        height: 400;
         border:solid;
         border-color: black;
       
       }
       
-      /* heading for names on meet the team page */
-      .Teamhead{
-        font-size: 25px;
-        color: black;
-        padding: 12px;
-        text-align: center;
-        padding-top: 150px;
-        font-weight: bold;
+      .Image_gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
       }
       
-      .description{
-        font-size: 20px;
-        color: rgb(3, 131, 3);
-        padding-right: 10px;
-        text-align: center;
+      .Image_gallery:hover {
+        border: 1px solid #777;
       }
       
-      /* rows and columns for meet the team page */
-      .row {
-        display:flex;
+      .Image_gallery img {
+        width: 100%;
+        height: auto;
       }
-      .column {
-        flex: 50%;
-        padding: 100px;
-        padding-bottom: 25px;
+      
+      .description {
+        padding: 15px;
+        text-align: center;
       }
-
+    
       .problemstatement{
         font-size: 18;
         color: steelblue;
