@@ -116,7 +116,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin: 100%;
+        margin: auto;
       }
 
       .footerHeading1{
@@ -175,3 +175,18 @@
       }
 
 
+      .teamcontainer {
+        padding: 40px;
+        display: flex;
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 18px;
+    }
+
+    .center {
+      align-items: center!important;
+  }
+      .center {
+        align-items: center!important;
+  }
