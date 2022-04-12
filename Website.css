@@ -100,3 +100,14 @@
         text-align: center;
       }
    
+      .footer-cont {
+        background-color: #4682b4;
+        padding-bottom: 4rem;
+
+      }
+
+      .footer{
+        width: 80%;
+        height:auto;
+        background-color:#4682b4;
+      }
