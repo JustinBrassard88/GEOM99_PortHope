@@ -112,7 +112,7 @@
 
       .footer{
         width: 80%;
-        height:80%;
+        height:auto;
         background-color:#4682b4;
         color:black;
         font-family: 'Courier New', monospace ;
