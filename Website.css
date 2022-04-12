@@ -131,6 +131,7 @@
       .footerheading1 a {
         color: white;
         text-decoration: none;
+        margin-bottom: 8px;
       }
 
       .footerHeading2{
@@ -146,6 +147,7 @@
       .footerHeading2 a {
         color: white;
         text-decoration: none;
+        margin-bottom: 8px;
       }
 
       .footerHeading3{
