@@ -117,3 +117,17 @@
         flex-wrap: wrap;
         margin: auto;
       }
+
+      .footerHeading1{
+        display:flex;
+        flex-direction:column;
+      }
+
+      .footerHeading1 h2 {
+        margin-bottom: 32px;
+      }
+
+      .footerheading1 a {
+        color: white;
+        text-decoration: none;
+      }
