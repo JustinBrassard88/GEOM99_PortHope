@@ -111,6 +111,7 @@
         width: 80%;
         height:auto;
         background-color:#4682b4;
+        padding: 10%;
         color:black;
         font-family: 'Courier New', monospace ;
         display: flex;
@@ -164,7 +165,6 @@
       .footerHeading3 p {
         color: white;
         text-decoration: none;
-        margin-bottom: 8px;
       }
 
       .footerHeading1 a:hover {
