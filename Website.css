@@ -164,6 +164,7 @@
       .footerHeading3 p {
         color: white;
         text-decoration: none;
+        margin-bottom: 8px;
       }
 
       .footerHeading1 a:hover {
