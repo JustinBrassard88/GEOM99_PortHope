@@ -131,21 +131,4 @@
         color: white;
         text-decoration: none;
       }
-      .teamcontainer {
-        padding: 40px;
-        display: flex;
-        text-align: center;
-        margin-right: 10%;
-        margin-left: 10%;
-        font-size: 18px;
-    }
-
-<<<<<<< HEAD
-    .center {
-      align-items: center!important;
-  }
-=======
-      .center {
-        align-items: center!important;
-  }
->>>>>>> 0850daa08626a06d1d5b28319be09ad3d231d042
+     
