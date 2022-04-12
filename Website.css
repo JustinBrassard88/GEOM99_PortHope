@@ -111,7 +111,6 @@
         width: 80%;
         height:auto;
         background-color:#4682b4;
-        padding: 10%;
         color:black;
         font-family: 'Courier New', monospace ;
         display: flex;
@@ -163,6 +162,7 @@
       }
 
       .footerHeading3 p {
+        margin-top: 0%;
         color: white;
         text-decoration: none;
       }
@@ -176,3 +176,18 @@
       }
 
 
+      .teamcontainer {
+        padding: 40px;
+        display: flex;
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 18px;
+    }
+
+    .center {
+      align-items: center!important;
+  }
+      .center {
+        align-items: center!important;
+  }
