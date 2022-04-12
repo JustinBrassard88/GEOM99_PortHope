@@ -161,6 +161,7 @@
       .footerHeading3 p {
         color: white;
         text-decoration: none;
+        flex-direction:column;
       }
 
 
