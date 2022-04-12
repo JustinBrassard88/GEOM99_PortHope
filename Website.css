@@ -117,3 +117,16 @@
         flex-wrap: wrap;
         margin: auto;
       }
+
+      .teamcontainer {
+        padding: 40px;
+        display: flex;
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 18px;
+    }
+
+    .center {
+      align-items: center!important;
+  }
