@@ -79,7 +79,7 @@
       }
       
       .Image_gallery:hover {
-        border: 5px solid #777;
+        border: 4px solid #777;
       }
       
       .Image_gallery img {
@@ -87,11 +87,6 @@
         height: auto;
       }
       
-      .description {
-        padding: 15px;
-        text-align: center;
-        font-weight: 500;
-      }
     
       .problemstatement{
         font-size: 18;
