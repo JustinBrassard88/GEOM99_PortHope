@@ -112,7 +112,7 @@
         height:auto;
         background-color:#4682b4;
         color:black;
-        font-family: 'Lucida Console', monospace ;
+        font-family: 'Courier New', monospace ;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -132,7 +132,6 @@
       .footerHeading1 a {
         color: white;
         text-decoration: none;
-        font-family: 'Lucida Console', monospace ;
         margin-bottom: 8px;
       }
 
@@ -149,7 +148,6 @@
       .footerHeading2 a {
         color: white;
         text-decoration: none;
-        font-family: 'Lucida Console', monospace ;
         margin-bottom: 8px;
       }
 
@@ -165,7 +163,6 @@
 
       .footerHeading3 p {
         color: white;
-        font-family: 'Lucida Console', monospace ;
         text-decoration: none;
       }
 
