@@ -165,6 +165,10 @@
         text-decoration: none;
       }
 
+      .footerHeading1 a:hover {
+        color:#87ceeb;  
+      }
+
 
       .teamcontainer {
         padding: 40px;
