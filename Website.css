@@ -148,6 +148,21 @@
         text-decoration: none;
       }
 
+      .footerHeading3{
+        display:flex;
+        flex-direction:column;
+        margin-right: 64px;
+      }
+
+      .footerHeading3 h2 {
+        margin-bottom: 32px;
+      }
+
+      .footerHeading3 p {
+        color: white;
+        text-decoration: none;
+      }
+
 
       .teamcontainer {
         padding: 40px;
