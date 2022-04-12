@@ -120,7 +120,7 @@
         justify-content: center;
         flex-wrap: wrap;
         margin: auto;
-        position: static;
+        
       }
 
       .footerHeading1{
@@ -189,9 +189,7 @@
         font-size: 18px;
     }
 
-    .center {
-      align-items: center!important;
-  }
-      .center {
-        align-items: center!important;
+  .Meetteamgallery{
+    position: absolute;
+    padding-left: 450px;
   }
