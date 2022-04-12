@@ -179,12 +179,6 @@
         color:#87ceeb;  
       }
 
-      @media screen and (max-width:1150px) {
-        .footer {
-          height: 25px;
-        }
-      }
-
 
       .teamcontainer {
         padding: 40px;
