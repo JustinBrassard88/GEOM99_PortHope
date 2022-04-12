@@ -111,13 +111,12 @@
         width: 80%;
         height:auto;
         background-color:#4682b4;
-        padding: 10%;
         color:black;
         font-family: 'Courier New', monospace ;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin: auto;
+        margin: 100%;
       }
 
       .footerHeading1{
