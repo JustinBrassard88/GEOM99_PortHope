@@ -76,6 +76,7 @@
         border: 3px solid #ccc;
         float: left;
         width: 180px;
+        padding: 25px;
       }
       
       .Image_gallery:hover {
