@@ -112,7 +112,6 @@
         height:auto;
         background-color:#4682b4;
         color:black;
-        font-weight: bold;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -122,6 +121,7 @@
       .footerHeading1{
         display:flex;
         flex-direction:column;
+        font-weight: bold;
         margin-right: 64px;
       }
 
@@ -138,6 +138,7 @@
       .footerHeading2{
         display:flex;
         flex-direction:column;
+        font-weight: bold;
         margin-right: 64px;
       }
 
@@ -154,6 +155,7 @@
       .footerHeading3{
         display:flex;
         flex-direction:column;
+        font-weight: bold;
         margin-right: 64px;
       }
 
