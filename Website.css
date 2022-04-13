@@ -106,8 +106,25 @@
    
       .footer-cont {
         background-color:#4682b4;
-        padding-bottom: 4rem;
+        padding-bottom: 45px;
 
+      }
+      
+      .teamcontainer {
+        padding: 40px;
+        display: flex;
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 18px;
+    }
+
+       .Meetteamgallery{
+        position: absolute;
+        padding-left: 450px;
+        padding-right: 400px;
+        padding-top: 50px;
+        padding-bottom: 50px;
       }
 
       .footer{
@@ -179,20 +196,3 @@
         color:#87ceeb;  
       }
 
-
-      .teamcontainer {
-        padding: 40px;
-        display: flex;
-        text-align: center;
-        margin-right: 10%;
-        margin-left: 10%;
-        font-size: 18px;
-    }
-
-  .Meetteamgallery{
-    position: absolute;
-    padding-left: 450px;
-    padding-right: 400px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
