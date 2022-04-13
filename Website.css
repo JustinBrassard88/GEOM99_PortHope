@@ -106,8 +106,7 @@
    
       .footer-cont {
         background-color:#4682b4;
-        padding-bottom: 45px;
-
+        bottom:0%;
       }
       
       .teamcontainer {
@@ -137,6 +136,7 @@
         justify-content: center;
         flex-wrap: wrap;
         margin: auto;
+        bottom: 0; 
         
       }
 
