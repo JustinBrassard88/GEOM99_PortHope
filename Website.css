@@ -199,6 +199,22 @@
     display: flex; 
     justify-content: space-around;
   }
+  @media screen and (max-width: 1340px) {
+    .Meetteamgallery{
+      position: static; 
+      padding-top: 50px;
+      padding-bottom: 50px;
+      justify-content: space-around;
+    }
+    .Image_gallery {
+      margin: 5px;
+      border: 3px solid #ccc;
+      /* float: left; */
+      width: 180px;
+      height: 725px;
+      padding: 25px;
+    }
+  }
 
   .SolutionDashboard{
     padding-top: 50px;
