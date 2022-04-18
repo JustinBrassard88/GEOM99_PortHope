@@ -225,5 +225,11 @@
   .introduction{
     color: darkblue;
     font-size: 18pt;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+  .Problemstatementtext{
+    color: darkblue;
+    font-size: 18pt;
+    padding-top: 25px;
   }
