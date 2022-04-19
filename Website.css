@@ -102,8 +102,11 @@
 
       .description {
         text-align: center;
+        color: #191970;
       }
-   
+      .teamdescription{
+        color:darkblue;
+      }
       .footer-cont {
         background-color:#4682b4;
         bottom:0%;
