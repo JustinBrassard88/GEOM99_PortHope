@@ -233,7 +233,10 @@
     font-size: 18pt;
     padding-top: 25px;
   }
-  
+  .textproblem{
+    font-size: 14pt;
+    color: darkblue;
+  }
   .problemstatement{
     text-align: center;
     padding-bottom: 25px;
