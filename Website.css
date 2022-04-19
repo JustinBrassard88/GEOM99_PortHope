@@ -235,7 +235,7 @@
     color: darkblue;
     font-size: 18pt;
     padding-top: 25px;
-  }
+    font-weight: bold;  }
   .textproblem{
     font-size: 14pt;
     color: darkblue;
