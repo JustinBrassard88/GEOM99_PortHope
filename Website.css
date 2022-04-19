@@ -243,3 +243,13 @@
       padding-left: 150px;
     }
   }
+
+  .ImageofWaterloo{
+    padding-left: 500px;
+    padding-bottom: 25px;
+  }
+  @media screen and (max-width: 1300px) {
+    .ImageofWaterloo{
+      padding-left: 150px;
+    }
+  }
