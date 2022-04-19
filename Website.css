@@ -233,5 +233,13 @@
     font-size: 18pt;
     padding-top: 25px;
   }
-
   
+  .problemstatement{
+    padding-left: 500px;
+    padding-bottom: 25px;
+  }
+  @media screen and (max-width: 1300px) {
+    .problemstatement{
+      padding-left: 150px;
+    }
+  }
