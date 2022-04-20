@@ -162,12 +162,75 @@
 <div class="Problemstatementtext">
     <h> Setbacks and Concerns:</h>
     </div>
-
-<p class="introduction"> The last thing we added was a list element to our Dashboard, which displays information on service lines that are made of lead or lines with unknown material
-    installed before 1950 as these are likely lead as well. These were filtered under data options to only include specific lines in the list. These were configured under list options, and data was pulled from the source layer were included in {}.
+<h2>1. Accessibility Issues </h2>
+<p class="introduction">Our dashboard was initially designed using a dark web map and all colour schemes for elements were left as the default options.
+    Although the Dashboard appeared fine on a large, high resolution display when running a Lighthouse report on the page, many assessibility issues appeared.
+    These issues were mainly due to the contrast ratio between background and foreground colours. The colour scheme of the failing elements were modifyied to prevent low contrast 
+    items that are difficult for users to see and read. Our final iteration of the dashboard involved changing the base map to a light gray canvas and altering the colours used for attributes. Careful attention was paid to the contrast between background and foreground elements. 
+    The final version of our dashboard had no accessibility issues for the colour use.
 </p>
 
-<!--Footer to match all pages-->
+<div class="row">
+    <div class="column">
+        <div class="Progress2Image">
+            <img src="Dashboard initial image">
+        </div>
+    </div>
+    <div class="column">
+        <div class="Progress2Image">
+            <img src="new dashboard image">
+        </div>
+    </div>
+</div>
+<div class="Progress2Image">
+    <img src="approved contrast image">
+</div>
+
+<h2>2. Category Element Selector Crashing</h2>
+<p class="introduction"> The first iteration of our dashboard contained a single category selector in our header. This selector was to allow for a user to zoom to a location on the map by selecting an address of their choice. The City of Waterloo’s data had over 32,000 unique addresses that the user can choose from. This caused the dropdown list to take a significantly long time to load and often times caused the dashboard to crash. 
+    To work around this, new data columns were added using ArcGIS Pro- one for Street Number and one for Street Address. Using the following two scripts to populate the columns, we were able to separate the address into its respective number and street.
+    By splitting the selector into street name and number, the result was a bit over 700 unique street names in Waterloo. Having this many options in the dropdown did not cause any lag nor result in the dashboard crashing.
+</p>
+
+<div class="row">
+    <div class="column">
+        <div class="Progress2Image">
+            <img src="arcgis pro image 1">
+        </div>
+    </div>
+    <div class="column">
+        <div class="Progress2Image">
+            <img src="arcgispro image 2">
+        </div>
+    </div>
+</div>
+
+<h2>3. Arcade in ArcGIS Dashboards</h2>
+<p class="introduction"> Although dashboards offer many click and set options to configure elements, our team found that we were limited in options to customize our dashboard to our liking. To really enhance our dashboard with advanced settings, our team set some time to learn and understand the use of Arcade expressions.
+    We were able to implement a simple Arcade expression (shown below) to change the colour of a list item based on the value. Using the code below, the text colour for unknown materials becomes red and orange for lead.
+    </p>
+    <div class="row">
+        <div class="column">
+            <div class="Progress2Image">
+                <img src="arcade expression 1 ">
+            </div>
+        </div>
+        <div class="column">
+            <div class="Progress2Image">
+                <img src="arcade expression 2">
+            </div>
+        </div>
+    </div>
+
+<h2>4. ArcGIS Online Assistant</h2>
+<p class="introduction"> ArcGIS Online Assistant can be used to view the underlying JSON for our dashboard in ArcGIS Online. While viewing the JSON for our dashboard, we were able to adjust settings that would not be an option on the dashboards user interface.
+    For example, on our dashboards JSON, we were able to adjust settings such as the number of times a selected feature flashes. The default is 3 and cannot be changed on ArcGIS Dashboards. Through the Online Assistant, we were able to change this to 7 so the user of our dashboard can easily directly their focus to the selected item.
+    Substantial care was taken in altering the JSON of our dashboard as this is an untested and unsupported feature. We ensured we had our dashboard backed up before adjusting various settings.
+
+    <div class="Progress2Image">
+        <img src="arcade expression 2">
+    </div>
+    <!--Footer to match all pages-->
 <footer>
     <div class = "footer-cont">
         <div class="footer">
