@@ -202,7 +202,7 @@
     display: flex; 
     justify-content: space-around;
   }
-  @media screen and (max-width: 1700px) {
+  @media screen and (max-width: 1800px) {
     .Meetteamgallery{
       position: static; 
       padding-top: 50px;
