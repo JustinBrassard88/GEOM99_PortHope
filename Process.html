@@ -34,14 +34,23 @@
     
   </ul>
 
+<div class="Problemstatementtext">
+    <h> Introduction:</h>
+    </div>
+
+<p class="introduction"> Multiple indicators were used to display numeric attributes/statistics. One indicator was configured to display the estimated cost of all 
+    lead pipes. This same filter was applied to the list element to only use pipes made of lead or unknown material pipes installed pre-1950. This indicator sums 
+    the lengths of all service lines that fall within the filter and multiples the number by 191. This results in the estimated cost of replacing the pipes based 
+    on an estimated rate of $191/m of pipe.</p>
+
+
 
 <div class="Problemstatementtext">
     <h> Creating Web Maps to be displayed on dashboard:</h>
     </div>
 
 <p class="introduction"> From the City of Waterloo's open source platform, two separate Web Maps were created on ArcGIS Online, One map showing the locations 
-    curbstop valves and the other displaying service lines (respective of the images below).
-</p>
+    curbstop valves and the other displaying service lines (respective of the images below).</p>
 
 <div class="row">
     <div class="column">
@@ -64,8 +73,7 @@
 </div>
 
 <p class="introduction"> A new Dashboard was created on ArcGIS Online and the Web Maps from the previous step were added in as source data. Once the map was initialized, 
-    different elements were added and configured. 
-</p>
+    different elements were added and configured. </p>
 
 <div class="row">
     <div class="column">
@@ -93,12 +101,13 @@
 
 <p class="introduction"> As seen in the image below, Map elements were created for a more online interactive approach with users. The setters were set to enable popups,
     default extent and bookmarks, legend, and zooming in/out. This allows for the user of our dashboard to click on feautres and see different attributes of the data. 
-    It also shows the legend containing various materials and being able to zoom in and out of the map.   
-</p>
+    It also shows the legend containing various materials and being able to zoom in and out of the map.   </p>
+
 
 <div class="Progress2Image">
     <img src="Images/6.png">
 </div>
+
 
 <div class="Problemstatementtext">
     <h> Configuring Pie Chart Element:</h>
@@ -106,8 +115,7 @@
 
 <p class="introduction"> The desired data layer was selected to use for a pie chart. In this case, the water service layer was chosen to show the varying material of service lines
     in Waterloo. Since majority of Waterloo's service data had unknown material, there were filtered out in order to prevent skew in the pie chart. The pie chart grouped values based on
-    material and displays the count for each material type. An inner radius of 50% was applied under chart options to give the pie chart a donut shape. 
-</p>
+    material and displays the count for each material type. An inner radius of 50% was applied under chart options to give the pie chart a donut shape. </p>
 
 <div class="row">
     <div class="column">
@@ -122,6 +130,7 @@
     </div>
 </div>
 
+
 <div class="row">
     <div class="column">
         <div class="Progress2Image">
@@ -134,13 +143,15 @@
         </div>
     </div>    
 </div>
+
+
 <div class="Problemstatementtext">
     <h> Configuring List Element:</h>
 </div>
 
 <p class="introduction"> The last thing we added was a list element to our Dashboard, which displays information on service lines that are made of lead or lines with unknown material
-    installed before 1950 as these are likely lead as well. These were filtered under data options to only include specific lines in the list. These were configured under list options, and data was pulled from the source layer were included in {}.
-</p>
+    installed before 1950 as these are likely lead as well. These were filtered under data options to only include specific lines in the list. These were configured under list options, 
+    and data was pulled from the source layer were included in {}.</p>
 
 <div class="row">
     <div class="column">
@@ -154,46 +165,61 @@
         </div>
     </div>
 </div>
+
 <div class="Progress2Image">
     <img src="Images/13.png">
     </div>
         
-    <div class="Problemstatementtext">
-        <h> Configuring Indicators</h>
+<div class="Problemstatementtext">
+    <h> Configuring Indicators</h>
     </div>
     
-    <p class="introduction"> Multiple indicators were used to display numeric attributes/statistics. One indicator was configured
-        to display the estimated cost of all lead pipes. This same filter was applied to the list element to only use pipes made of lead
-        or unknown material pipes installed pre-1950. This indicator sums the lengths of all service lines that fall within the filter and multiples the number by 191. This results in the estimated cost of replacing the pipes based on an estimated rate of $191/m of pipe.
+    <p class="introduction"> Multiple indicators were used to display numeric attributes/statistics. One indicator was configured to display the estimated cost of all lead pipes. 
+        This same filter was applied to the list element to only use pipes made of lead or unknown material pipes installed pre-1950. This indicator sums the lengths of all service 
+        lines that fall within the filter and multiples the number by 191. This results in the estimated cost of replacing the pipes based on an estimated rate of $191/m of pipe.</p>
 
-    </p>
-    <div class="Progress2Image">
-        <img src="Images/14.png">
-        </div>
+
+<div class="Progress2Image">
+    <img src="Images/14.png">
+    </div>
 
 <div class="Problemstatementtext">
     <h> Configuring Header</h>
     </div>
         
-<p class="introduction"> We used a header to reserve an area at the top of our dashboard to display a title and allowing the users to navigate through multiple selectors to find a specific address. Three category selectors were set: Street Name, Street Number, Address. Each of these selectors filters the options of the latter so the user can narrow down their choice. 
-    Filters were also set on the map element so it pans to a selected area based on user input
-    </p>
+<p class="introduction"> We used a header to reserve an area at the top of our dashboard to display a title and allowing the users to navigate through multiple selectors to find a 
+    specific address. Three category selectors were set: Street Name, Street Number, Address. Each of these selectors filters the options of the latter so the user can narrow down 
+    their choice. Filters were also set on the map element so it pans to a selected area based on user input</p>
+
+
 <div class="Progress2Image">
     <img src="Images/15.png">
 </div>
 
 <div class="Problemstatementtext">
+    <h> Overview:</h>
+    </div>
+
+<p class="introduction"> Multiple indicators were used to display numeric attributes/statistics. One indicator was configured to display the estimated cost of all 
+    lead pipes. This same filter was applied to the list element to only use pipes made of lead or unknown material pipes installed pre-1950. This indicator sums 
+    the lengths of all service lines that fall within the filter and multiples the number by 191. This results in the estimated cost of replacing the pipes based 
+    on an estimated rate of $191/m of pipe.</p>
+
+
+<div class="Problemstatementtext">
     <h> Setbacks and Concerns:</h>
     </div>
+
+
 <div class="problemsandconcerns">    
-<h2>1. Accessibility Issues </h2>
-</div>
+    <h2>1. Accessibility Issues </h2>
+    </div>
+
 <p class="introduction">Our dashboard was initially designed using a dark web map and all colour schemes for elements were left as the default options.
     Although the Dashboard appeared fine on a large, high resolution display when running a Lighthouse report on the page, many assessibility issues appeared.
     These issues were mainly due to the contrast ratio between background and foreground colours. The colour scheme of the failing elements were modifyied to prevent low contrast 
-    items that are difficult for users to see and read. Our final iteration of the dashboard involved changing the base map to a light gray canvas and altering the colours used for attributes. Careful attention was paid to the contrast between background and foreground elements. 
-    The final version of our dashboard had no accessibility issues for the colour use.
-</p>
+    items that are difficult for users to see and read. Our final iteration of the dashboard involved changing the base map to a light gray canvas and altering the colours used 
+    for attributes. Careful attention was paid to the contrast between background and foreground elements. The final version of our dashboard had no accessibility issues for the colour use.</p>
 
 <div class="row">
     <div class="column">
@@ -212,12 +238,15 @@
 </div>
 
 <div class="problemsandconcerns">  
-<h2>2. Category Element Selector Crashing</h2>
-</div>
-<p class="introduction"> The first iteration of our dashboard contained a single category selector in our header. This selector was to allow for a user to zoom to a location on the map by selecting an address of their choice. The City of Waterloo’s data had over 32,000 unique addresses that the user can choose from. This caused the dropdown list to take a significantly long time to load and often times caused the dashboard to crash. 
-    To work around this, new data columns were added using ArcGIS Pro- one for Street Number and one for Street Address. Using the following two scripts to populate the columns, we were able to separate the address into its respective number and street.
-    By splitting the selector into street name and number, the result was a bit over 700 unique street names in Waterloo. Having this many options in the dropdown did not cause any lag nor result in the dashboard crashing.
-</p>
+    <h2>2. Category Element Selector Crashing</h2>
+    </div>
+
+<p class="introduction"> The first iteration of our dashboard contained a single category selector in our header. This selector was to allow for a user to zoom to a location on the 
+    map by selecting an address of their choice. The City of Waterloo’s data had over 32,000 unique addresses that the user can choose from. This caused the dropdown list to take a 
+    significantly long time to load and often times caused the dashboard to crash. To work around this, new data columns were added using ArcGIS Pro- one for Street Number and one 
+    for Street Address. Using the following two scripts to populate the columns, we were able to separate the address into its respective number and street.By splitting the selector 
+    into street name and number, the result was a bit over 700 unique street names in Waterloo. Having this many options in the dropdown did not cause any lag nor result in the 
+    dashboard crashing.</p>
 
 <div class="row">
     <div class="column">
@@ -231,27 +260,35 @@
         </div>
     </div>
 </div>
-<div class="problemsandconcerns">  
-<h2>3. Arcade in ArcGIS Dashboards</h2>
-</div>
 
-<p class="introduction"> Although dashboards offer many click and set options to configure elements, our team found that we were limited in options to customize our dashboard to our liking. To really enhance our dashboard with advanced settings, our team set some time to learn and understand the use of Arcade expressions.
-    We were able to implement a simple Arcade expression (shown below) to change the colour of a list item based on the value. Using the code below, the text colour for unknown materials becomes red and orange for lead.
-    </p>
+
+<div class="problemsandconcerns">  
+    <h2>3. Arcade in ArcGIS Dashboards</h2>
+    </div>
+
+<p class="introduction"> Although dashboards offer many click and set options to configure elements, our team found that we were limited in options to customize our dashboard to our liking. 
+    To really enhance our dashboard with advanced settings, our team set some time to learn and understand the use of Arcade expressions. We were able to implement a simple Arcade expression 
+    (shown below) to change the colour of a list item based on the value. Using the code below, the text colour for unknown materials becomes red and orange for lead.</p>
+
+
 <div class="Progress2Image">
     <img src="Images/21.png">
 </div>
         
 <div class="problemsandconcerns">  
-<h2>4. ArcGIS Online Assistant</h2>
-</div>
-<p class="introduction"> ArcGIS Online Assistant can be used to view the underlying JSON for our dashboard in ArcGIS Online. While viewing the JSON for our dashboard, we were able to adjust settings that would not be an option on the dashboards user interface.
-    For example, on our dashboards JSON, we were able to adjust settings such as the number of times a selected feature flashes. The default is 3 and cannot be changed on ArcGIS Dashboards. Through the Online Assistant, we were able to change this to 7 so the user of our dashboard can easily directly their focus to the selected item.
-    Substantial care was taken in altering the JSON of our dashboard as this is an untested and unsupported feature. We ensured we had our dashboard backed up before adjusting various settings.
+    <h2>4. ArcGIS Online Assistant</h2>
+    </div>
+
+<p class="introduction"> ArcGIS Online Assistant can be used to view the underlying JSON for our dashboard in ArcGIS Online. While viewing the JSON for our dashboard, we were able to 
+    adjust settings that would not be an option on the dashboards user interface. For example, on our dashboards JSON, we were able to adjust settings such as the number of times a 
+    selected feature flashes. The default is 3 and cannot be changed on ArcGIS Dashboards. Through the Online Assistant, we were able to change this to 7 so the user of our dashboard 
+    can easily directly their focus to the selected item. Substantial care was taken in altering the JSON of our dashboard as this is an untested and unsupported feature. We ensured we 
+    had our dashboard backed up before adjusting various settings.</p>
 
     <div class="Progress2Image">
         <img src="Images/22.png">
     </div>
+
     <!--Footer to match all pages-->
 <footer>
     <div class = "footer-cont">
