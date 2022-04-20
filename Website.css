@@ -36,7 +36,7 @@
       display: none;
     }
   }
-  
+  /*Main title image*/ 
   .Header_Image_Title {
       position: relative;
       font-family:'Copperplate', Fantasy;
@@ -59,7 +59,7 @@
       width: 100%;
       height: auto;
     }
-
+/*meet the team borders*/ 
     .MeetTeam {
         display: block;
         margin-left: auto;
@@ -107,6 +107,7 @@
       .teamdescription{
         color:darkblue;
       }
+      /*footer consistent on all pages*/ 
       .footer-cont {
         background-color:#4682b4;
         bottom:0%;
@@ -192,7 +193,7 @@
         margin-left: 10%;
         font-size: 18px;
     }
-
+/*meet the team pictures*/ 
   .Meetteamgallery{
     position: relative; 
     padding-left: 450px;
@@ -202,6 +203,7 @@
     display: flex; 
     justify-content: space-around;
   }
+  /*making meet the team pictures responsive*/ 
   @media screen and (max-width: 1800px) {
     .Meetteamgallery{
       position: static; 
@@ -230,7 +232,7 @@
     font-size: 14pt;
     
   }
-
+/*text font and colour consistent throughout webpage*/ 
   .Problemstatementtext{
     color: darkblue;
     font-size: 18pt;
@@ -245,18 +247,19 @@
     padding-bottom: 25px;
   }
   
-
+/*this image on home page*/ 
   .ImageofWaterloo{
    text-align: center;
   }
-
+/*progress 2 image will be used to format all process photos */ 
   .Progress2Image{
     text-align: center;
   }
+  /*changing background colour so images with white background stand out*/ 
  body{
    background-color: #E0FFFF;
  }
-
+/*Making images in rows and columns*/ 
 .row {
   display:flex;
 }
@@ -266,7 +269,7 @@
   padding-bottom: 25px;
 }
 
-/*mobile phone usage for meet the team page*/ 
+/*mobile phone usage for process pages*/ 
 @media screen and (max-width: 1000px) {
   .row {
     display: flex;
@@ -277,7 +280,7 @@
     padding-bottom: 5px;
   }
 }
-
+/*problems and concerns text*/ 
 .problemsandconcerns {
   color: #0000CD;
 }
