@@ -221,11 +221,7 @@
     }
   }
 
-  .SolutionDashboard{
-    padding-top: 50px;
-    padding-left: 475px;
-    padding-bottom: 50px;
-  }
+
  
   .introduction{
     color: darkblue;
@@ -287,4 +283,14 @@
 
 .Dashboardsolution{
   text-align: center;
+  padding-bottom: 35px;
 }
+
+.linktodashboard {
+  font-size: 14pt;
+  color: #0000CD;
+
+}
+  .linktodashboard:hover{
+    color: #191970;
+  }
