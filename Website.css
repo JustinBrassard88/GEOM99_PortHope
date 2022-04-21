@@ -279,6 +279,9 @@
 /*problems and concerns text*/ 
 .problemsandconcerns {
   color: #0000CD;
+  font-size: 18pt;
+  padding-top: 25px;
+  font-weight: bold;
 }
 
 .Dashboardsolution{
